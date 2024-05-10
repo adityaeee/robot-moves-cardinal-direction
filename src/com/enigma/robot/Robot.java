@@ -1,7 +1,5 @@
 package com.enigma.robot;
 
-import javax.swing.text.Position;
-
 public class Robot {
     public Direction direction;
     public Integer X;

@@ -1,5 +1,6 @@
 package com.enigma.robot;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Helper {
@@ -18,16 +19,9 @@ public class Helper {
     }
 
     public static Integer inputInteger(String info) {
-        while(true) {
             System.out.printf("%s : ", info);
             Integer input = scanner.nextInt();
-
-            if (input == null) {
-                continue;
-            }
             return input;
-        }
-
     }
 
     public static Direction inputDirection (String dir){
@@ -72,5 +66,6 @@ public class Helper {
         }
         return false;
     }
+
 
 }

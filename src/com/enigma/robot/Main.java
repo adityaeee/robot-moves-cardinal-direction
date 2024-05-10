@@ -19,9 +19,12 @@ public class Main {
         Direction direction = Helper.inputDirection(dir);
 
         //INPUTAN POSISI X DAN Y
-        int x = Helper.inputInteger("Masukkan posisi sumbu x");
-        int y = Helper.inputInteger("Masukkan posisi sumbu y");
 
+        int x = InputUser.inputPosition("x");
+
+
+//             Helper.inputInteger("Masukkan posisi sumbu x");
+            int y = Helper.inputInteger("Masukkan posisi sumbu y");
         //INPUTAN RUTE ROBOT
         System.out.println("""
                 \nRute Robot :
